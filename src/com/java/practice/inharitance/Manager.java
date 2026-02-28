@@ -1,9 +1,16 @@
 package com.java.practice.inharitance;
 
 public class Manager extends Employee{
+	
 	private String deptName;
 	private double bonus;
 	
+	public Manager(String empId, String empName, double empSal,String deptName, double bouns) {
+		super(empId, empName, empSal);
+		this.deptName = deptName;
+		this.bonus = bouns;
+	}
+
 	public double getTotalSalary() {
 		return getEmpSal() + bonus;
 	}

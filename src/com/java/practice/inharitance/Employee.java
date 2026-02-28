@@ -5,6 +5,11 @@ public class Employee {
 	private String empName;
 	private double empSal;
 	
+	public Employee(String empId, String empName, double empSal) {
+		this.empId = empId;
+		this.empName = empName;
+		this.empSal = empSal;
+	}
 	public String getEmpId() {
 		return empId;
 	}

@@ -23,13 +23,7 @@ public class ShowAccountDetails {
 		System.out.println("Enter Bouns : ");
 		int bouns = sc.nextInt();
 		
-		Manager manager = new Manager();
-		
-		manager.setEmpId(empId);
-		manager.setEmpName(empName);
-		manager.setEmpSal(salary);
-		manager.setBonus(bouns);
-		manager.setDeptName(deptName);
+		Manager manager = new Manager(empId, empName, salary, deptName, bouns);
 		
 		
 		System.out.println("Employee Id : " + manager.getEmpId());
