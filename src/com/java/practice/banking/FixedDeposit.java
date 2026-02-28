@@ -19,6 +19,6 @@ public class FixedDeposit {
 		
 		System.out.println("interest earned : "+yearly);
 		
-		
+		 
 	}
 }
