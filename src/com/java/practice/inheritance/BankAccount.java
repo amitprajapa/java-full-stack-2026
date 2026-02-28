@@ -1,4 +1,4 @@
-package com.java.practice.inharitance;
+package com.java.practice.inheritance;
 
 public class BankAccount {
 	private int accountNumber;
