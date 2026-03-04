@@ -1,4 +1,4 @@
-package com.java.practice.controlStatement;
+package com.java.practice.controlstatement;
 
 import java.util.Scanner;
 

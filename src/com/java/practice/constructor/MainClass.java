@@ -35,6 +35,15 @@ public class MainClass {
         System.out.println(":::::::::::::::::::::::::::::::::::::");
         Product product = new Product(1, "Watch", 299.99);
         product.displayProductDetails();
+        System.out.println(":::::::::::::::::::::::::::::::::::::");
+        
+        ProductClass class1 = new ProductClass(121, "Smart Phone ", 20000);
+        class1.display();
+        
+        System.out.println(":::::::::::::::::::::::::::::::::::::");
+        
+        Employee employee = new Employee(101, "Amit", 50000, "IT");
+        employee.display();
 
 		
 	}
